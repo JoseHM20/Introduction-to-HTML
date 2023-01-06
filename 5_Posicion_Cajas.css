@@ -1,0 +1,29 @@
+/* POSICION DE CAJAS
+
+UNIVERSIDAD AUTONOMA DE NUEVO LEON
+FACULTAD DE CIENCIAS FISICO MATEMATICAS
+SEMESTRE AGOSTO - DICIEMBRE 2022 
+
+JOSE LUIS HERNANDEZ MEZA - 1950471 */
+
+header{
+    font-size: 20px;
+    color: blue;
+}
+
+section{
+    width: 150px;
+    height: 150px;
+    background: cadetblue;
+    color: black;
+    font-size: 20px;
+}
+
+.Posicion{
+    position: relative; /* Pérmite jugar con las cajas*/
+    /* position: absolute; permite que el resto de cajas se recorran sin dejar espacios */
+    top: 100px;
+    bottom: 0px;
+    right: 0px;
+    left: 200px;
+}

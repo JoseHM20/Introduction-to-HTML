@@ -1,0 +1,44 @@
+/* FORMULARIOS
+
+UNIVERSIDAD AUTONOMA DE NUEVO LEON
+FACULTAD DE CIENCIAS FISICO MATEMATICAS
+SEMESTRE AGOSTO - DICIEMBRE 2022 
+
+JOSE LUIS HERNANDEZ MEZA - 1950471 */
+
+form {
+    width: 40%;
+    border: 5px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+label {
+    font-size: 20px;
+    border: 2px black;
+    display: block;
+}
+
+input {
+    margin: 5px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px black;
+}
+
+input:focus {
+    border: 2px blue;
+}
+
+textarea {
+    resize: vertical; /* Expandir textos largos */
+    max-height: 200px;
+}
+
+input [type="submit"]{
+    margin-bottom: 0px;
+    background-color: aquamarine;
+    color: black;
+    border: none;
+}

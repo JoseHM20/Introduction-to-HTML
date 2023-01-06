@@ -1,0 +1,47 @@
+/* ENLACES
+
+UNIVERSIDAD AUTONOMA DE NUEVO LEON
+FACULTAD DE CIENCIAS FISICO MATEMATICAS
+SEMESTRE AGOSTO - DICIEMBRE 2022 
+
+JOSE LUIS HERNANDEZ MEZA - 1950471 */
+
+/* El formato que aqui agregamos permite convertir un enlcae 
+en un posible boton */
+a {
+    font-size: 5px;
+    display: inline-block; /* Usar en todos los enlaces */
+    color: black;
+    background-color: aquamarine;
+    text-decoration: none; /* Quitar la linea inferior a los links */
+    padding: 15px 10px; /* Separacion entre bloques */
+    margin: 20px 20px; /* Margen del bloque */
+    box-shadow: 0px 5px 0px orange;
+}
+
+/* a:link permite cambiar las propiedades de los enlaces que aun no viistamos 
+dentro de nuestro sitio */
+a:link {
+    color: blueviolet;
+}
+
+/* a:visited cambias las propiedades de los sitios que ya visitamos dentro
+de nuestro sitio web*/
+a:visited {
+    color: white;
+    background-color: brown;
+}
+
+/* a:hover permita cambiar las propiedades que se presentan cuando
+pasamos el raton sobre un link */
+a:hover {
+    text-decoration: underline;
+    background: darkblue;
+    color: azure;
+}
+
+/* a:active permite cambiar las propiedad de cuando seleccionamos un enlace*/
+a:active {
+    background-color: aquamarine;
+    color: black;
+}

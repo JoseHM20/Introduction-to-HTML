@@ -1,0 +1,23 @@
+/* CAMBIANDO LA FUENTE
+
+UNIVERSIDAD AUTONOMA DE NUEVO LEON
+FACULTAD DE CIENCIAS FISICO MATEMATICAS
+SEMESTRE AGOSTO - DICIEMBRE 2022 
+
+JOSE LUIS HERNANDEZ MEZA - 1950471 */
+
+h1 {
+    font-weight: normal; /* Sin negrita */
+    text-align: center; /* Ajustar al centro el texto */
+    text-transform: uppercase; /* Convertir todo el texto a mayusculas */
+    letter-spacing: 5px; /* Espaciado entre letras */
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: blue;
+    font-weight: bold; /* Con negrita */
+    text-align: justify; /* Justificar el texto */
+    line-height: 30px; /* Cambiar el interlineado */
+}

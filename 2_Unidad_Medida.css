@@ -1,0 +1,28 @@
+/* UNIDADES DE MEDIDA
+
+UNIVERSIDAD AUTONOMA DE NUEVO LEON
+FACULTAD DE CIENCIAS FISICO MATEMATICAS
+SEMESTRE AGOSTO - DICIEMBRE 2022 
+
+JOSE LUIS HERNANDEZ MEZA - 1950471 */
+
+body {
+    font-size: 10px;
+    background: #000; /* Color de fondo */ 
+    color: #fff ; /* Color de letra */
+    /* Pagina de colores HTML: https://htmlcolorcodes.com/ *\
+    width: 20%; /* Usar porcentajes ayuda a ajustar el tamaño en diferentes dispositivos*/ 
+}
+
+p {
+    font-size: 1em;
+    /* Esta medida cambiara respecto a su padre (etiqueta anterior)
+    
+    Ejemplo: si el cuerpo es de 10px y el parrafo equivale a 1em, entonces
+    el parrafo tendria el tamaño de 10px. Por otro lado, si el parrafo tiene
+    un valor 2em, entonces su tamaño final sera el doble de la etiqueta padre. Es decir, 20px*/
+}
+
+section p {
+    font-size: 20px;
+}

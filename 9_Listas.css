@@ -1,0 +1,29 @@
+/* LISTAS
+
+UNIVERSIDAD AUTONOMA DE NUEVO LEON
+FACULTAD DE CIENCIAS FISICO MATEMATICAS
+SEMESTRE AGOSTO - DICIEMBRE 2022 
+
+JOSE LUIS HERNANDEZ MEZA - 1950471 */
+
+ul {
+    /* Partial list of types
+    list-style-type: disc;
+    list-style-type: circle;
+    list-style-type: square;
+    list-style-type: decimal;
+    list-style-type: georgian;
+    list-style-type: trad-chinese-informal;
+    list-style-type: kannada; */
+
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+ul > ul {
+    list-style-type: square;
+}
+
+ul > ul > ul {
+    list-style-type: decimal;
+}

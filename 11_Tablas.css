@@ -1,0 +1,25 @@
+/* TABLAS
+
+UNIVERSIDAD AUTONOMA DE NUEVO LEON
+FACULTAD DE CIENCIAS FISICO MATEMATICAS
+SEMESTRE AGOSTO - DICIEMBRE 2022 
+
+JOSE LUIS HERNANDEZ MEZA - 1950471 */
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table td {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+table tr:hover {
+    background-color: #C8C9CB;
+}
+
+table td:hover {
+    background-color: #9AFAFA;
+}

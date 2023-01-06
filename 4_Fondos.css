@@ -1,0 +1,16 @@
+/* FONDOS
+
+UNIVERSIDAD AUTONOMA DE NUEVO LEON
+FACULTAD DE CIENCIAS FISICO MATEMATICAS
+SEMESTRE AGOSTO - DICIEMBRE 2022 
+
+JOSE LUIS HERNANDEZ MEZA - 1950471 */
+
+body{
+    background: url(ejemplo.jpg); /* Tiende a repetirse*/
+    background-repeat: no-repeat; /* Evitar que se repita la imagen*/
+    /* background-repeat: repeat-x; Que se repita de forma horizontal*/
+    background-attachment: fixed; /* Mantenerse el fondo fijo en la pantalla auqneu te desplaces*/
+    /* background-attachment: scroll; Por defecto, la imagen no se mantiene en toda la pagina*/
+    color: aliceblue; /* Color de fuente */
+}

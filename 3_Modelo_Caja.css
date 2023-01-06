@@ -1,0 +1,14 @@
+/* MODELOS DE CAJA
+
+UNIVERSIDAD AUTONOMA DE NUEVO LEON
+FACULTAD DE CIENCIAS FISICO MATEMATICAS
+SEMESTRE AGOSTO - DICIEMBRE 2022 
+
+JOSE LUIS HERNANDEZ MEZA - 1950471 */
+
+section {
+    background: orange; /* Fondo de bloque*/
+    margin: 20px; /* Margen que va afuera de un bloque*/
+    padding: 20px; /* ,argen que va dentro de im bloque*/
+    border: 20px solid darkcyan;
+}

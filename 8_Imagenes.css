@@ -1,0 +1,22 @@
+/* IMAGENES
+
+UNIVERSIDAD AUTONOMA DE NUEVO LEON
+FACULTAD DE CIENCIAS FISICO MATEMATICAS
+SEMESTRE AGOSTO - DICIEMBRE 2022 
+
+JOSE LUIS HERNANDEZ MEZA - 1950471 */
+
+/* Ajustar imagenes junto con la seccion */
+section {
+    background-color: aquamarine;
+    width: 1000px;
+}
+
+img {
+    width: 50%; /* Ancho */
+    height: auto; /* Alto */
+    display: block;
+    margin: auto; /* Centrar el la seccion*/
+    border-radius: 10px; /* Redondear imagen */
+    box-shadow: 5px 5px 0px red;
+}
